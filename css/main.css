@@ -204,6 +204,9 @@ Modules - reusable parts of our design
     }
   }
   
-.soft-one-half--ends, .push-half--top li:nth-child(2n), .push-half--top li:nth-child(3n) {
+.soft-one-half--ends, 
+.push-half--top li:nth-child(2n),
+.push-half--top li:nth-child(3n),
+.push--bottom.text-light-grey.center {
     display: none !important;
 }

@@ -2,7 +2,8 @@ jQuery(document).ready(function($){
 	//open popup
 	$('.cd-popup-trigger').on('click', function(event){
 		event.preventDefault();
-		Instamojo.open('https://instamojo.com/@alilusevafoundation');
+		alert("Sorry! This is temporarily unavailable. Please try again later.")
+		//Instamojo.open('https://instamojo.com/@alilusevafoundation');
 	});
 	
 	// //close popup
